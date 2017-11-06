@@ -1,0 +1,17 @@
+{
+  "name": "music-rocket",
+  "productName": "Music Rocket",
+  "version": "0.1.0",
+  "description": "An app to download music from your favourite online sources.",
+  "main": "./main.prod.js",
+  "author": {
+    "name": "Isaac Hinman | 2017",
+    "email": "isaac@isaachinman.com",
+    "url": "github.com/isaachinman"
+  },
+  "scripts": {
+    "postinstall": "npm rebuild --runtime=electron --target=1.6.6 --disturl=https://atom.io/download/atom-shell --build-from-source"
+  },
+  "license": "MIT",
+  "dependencies": {}
+}
